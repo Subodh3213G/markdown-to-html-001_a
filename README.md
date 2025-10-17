@@ -1,1 +1,15 @@
-# Markdown to HTML Converter\n\nThis is a simple, single-page web application designed to convert a markdown file (`input.md`) into beautifully rendered HTML, complete with syntax highlighting for code blocks. It's built using modern web technologies to provide a clean, responsive, and easy-to-use interface.\n\n## Features\n\n*   **Markdown to HTML Conversion:** Utilizes the `marked.js` library for fast and accurate markdown parsing.\n*   **Syntax Highlighting:** Integrates `highlight.js` to automatically detect and highlight code blocks in various programming languages.\n*   **Responsive Design:** Built with Tailwind CSS, ensuring a great viewing experience across all device sizes.\n*   **Single-File Application:** All logic and styling are contained within a single `index.html` file for easy deployment and sharing.\n*   **Local File Support:** Designed to fetch and render `input.md` directly from the same directory, making it ideal for static site deployment or local development.\n\n## How to Use\n\n1.  **Place your Markdown file:** Ensure your markdown content is saved in a file named `input.md` in the same directory as `index.html`.\n2.  **Open `index.html`:** Simply open the `index.html` file in any modern web browser.\n3.  **View the Rendered Content:** The application will automatically fetch `input.md`, convert it to HTML, and display it with proper styling and syntax highlighting.\n\n## Technologies Used\n\n*   **HTML5:** Structure of the web page.\n*   **Tailwind CSS:** For utility-first styling and responsive design.\n*   **Marked.js:** A markdown parser and compiler built for speed and ease of use.\n*   **Highlight.js:** A JavaScript library for syntax highlighting code blocks.\n\n## Development\n\nThis project is a static page and does not require a build process. You can open `index.html` directly in your browser.
+# Markdown Editor with Tabs
+
+This is a simple web-based Markdown editor that allows users to write Markdown in a textarea and see a live preview of the rendered HTML. It also includes tabs to switch between the rendered HTML output and the raw Markdown source.
+
+## Features
+
+*   **Live Preview**: Renders Markdown to HTML in real-time.
+*   **Tabbed Interface**: Switch between "Rendered HTML" and "Markdown Source" views.
+*   **`input.md` Loading**: Automatically loads content from `input.md` on startup.
+
+## How to use
+
+1.  Open `index.html` in your web browser.
+2.  Edit Markdown in the "Markdown Source" tab.
+3.  Switch to the "Rendered HTML" tab to see the live preview.
